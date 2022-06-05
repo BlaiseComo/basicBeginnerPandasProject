@@ -11,14 +11,12 @@ def mainFunction():
 
     #okProcessors = []
 
-    amdCPUS = mainDataFrame[mainDataFrame.processor_brand == 'AMD']
-    amdCPUS = amdCPUS.groupby(['processor_brand']).processor_name
+    
 
 
 
     print(mainDataFrame.head(100))
-    print
-    
+        
     
 
 
